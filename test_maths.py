@@ -2,7 +2,7 @@ import pytest
 import maths
 
 def test_add():
-    assert maths.sum(2, 3) == 5
+    assert maths.add(2, 3) == 5
 
 def test_sub():
     assert maths.sub(3, 1) == 2
