@@ -9,5 +9,5 @@ def mul(a, b):
 
 def div(a, b):
     if b == 0:
-        print("Can't divide with 0")
+        raise ValueError("cannot divide by zero")
     return a / b
